@@ -102,7 +102,7 @@ Notice that how long it takes to guarantee that a letter is not in a word depend
 
 If let the number of letters in our word be `n` then we can say our function runs in `n + 3` time.  So if we choose a string of 100 letters, this takes 100 + 3 = 103 time.  We call this the time complexity of the function.
 
-![time-complexity](/Users/flatironschool/Desktop/time-complexity.png)
+![time-complexity](/./time-complexity.png)
 
 As we see in the first sentence of the Google definition, time complexity is expressed in terms of the length of the input.  The second sentence about big O, coefficients, and lower order terms we'll talk about in the sections to come.
 
