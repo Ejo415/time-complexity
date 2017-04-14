@@ -40,7 +40,7 @@ Here, we want to calculate the time it takes to consider each letter and test fo
 
   stringIncludes("banana", "a")
   // true
-  stringIncludes(fruit, "d")
+  stringIncludes("banana", "d")
   // false
 ```
 
@@ -85,7 +85,7 @@ Let's take a closer look by using our function to determine if the letter "d" is
 ```javascript
 function stringIncludes(word, letter){
   let matches; // 1
-  for(let i = 0; i < fruit.length; i++){ //2
+  for(let i = 0; i < word.length; i++){ //2
     if(word[i] === letter){ // + 6
       matches = true //
     }
@@ -104,7 +104,7 @@ If let the number of letters in our word be `n` then we can say our function run
 
 ![time-complexity](https://s3-us-west-2.amazonaws.com/curriculum-content/web-development/algorithms/time-complexity.png)
 
-As we see in the first sentence of the Google definition, time complexity is expressed in terms of the length of the input.  The second sentence about big O, coefficients, and lower order terms we'll talk about in the sections to come.
+As we see in the first sentence of the Wikipedia definition, time complexity is expressed in terms of the length of the input.  The second sentence about big O, coefficients, and lower order terms we'll talk about in the sections to come.
 
 But first!
 
@@ -118,4 +118,4 @@ we no longer have to visit each letter, and now our function should take less ti
 
 ### Summary
 
-In this section, we worked towards a mechanism for describing how costly a function is.  We calculate the cost by counting the number of lines that are run in a function.  We recognize that the cost of performing a function varies with the size of the input, so we describe the cost in terms of the size of the input.  We call this cost the time complexity of the function.
+In this section, we worked towards a mechanism for describing how costly a function is.  We calculate the cost by counting the number of lines that are run in a function.  We recognize that the cost of performing a function varies with the size of the input, so we describe the cost in terms of the size of the input.  We call this cost the "time complexity" of the function.
