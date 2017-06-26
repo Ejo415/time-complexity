@@ -2,7 +2,7 @@
 
 ## Objectives
 + Calculate the  time it takes a function for a given input
-+ Calculate the time it takes a function for a inputs of different lengths
++ Calculate the time it takes a function for inputs of different lengths
 
 ## Our first algorithm
 
@@ -19,11 +19,11 @@ First, note that we can simply answer these questions with the existing Javascri
 
 But how does Javascript implement something like this?  For right now, let's assume that Javascript implements it the same way we would, by examining each letter.  
 
-Great, so now let's consider the cost of algorithm that examines each letter.
+Great, so now let's consider the cost of the algorithm that examines each letter.
 
 ### The cost of examining each letter
 
-When we ask about 'cost' in the context of algorithms, what we mean for now is time.  
+When we ask about 'cost' in the context of algorithms, what we mean, for now, is time.  
 
 Here, we want to calculate the time it takes to consider each letter and test for equality.  First let's write out the code, and then we'll calculate the cost.  Our code may look like the following:
 
@@ -100,7 +100,7 @@ In the first line, we declare the variable `let matches;` Then, for each letter 
 
 Notice that how long it takes to guarantee that a letter is not in a word depends on the size of our word.  So let's express the time it takes to run this function in terms of the size of our string.  
 
-If let the number of letters in our word be `n` then we can say our function runs in `n + 3` time.  So if we choose a string of 100 letters, this takes 100 + 3 = 103 time.  We call this the time complexity of the function.
+If we let the number of letters in our word be `n` then we can say our function runs in `n + 3` time.  So if we choose a string of 100 letters, this takes 100 + 3 = 103 time.  We call this the time complexity of the function.
 
 ![time-complexity](https://s3-us-west-2.amazonaws.com/curriculum-content/web-development/algorithms/time-complexity.png)
 
@@ -119,3 +119,5 @@ we no longer have to visit each letter, and now our function should take less ti
 ### Summary
 
 In this section, we worked towards a mechanism for describing how costly a function is.  We calculate the cost by counting the number of lines that are run in a function.  We recognize that the cost of performing a function varies with the size of the input, so we describe the cost in terms of the size of the input.  We call this cost the "time complexity" of the function.
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/time-complexity'>Time Complexity</a> on Learn.co and start learning to code for free.</p>
