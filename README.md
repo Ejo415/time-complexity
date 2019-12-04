@@ -2,7 +2,7 @@
 
 ## Objectives
 + Calculate the  time it takes a function for a given input
-+ Calculate the time it takes a function for a inputs of different lengths
++ Calculate the time it takes a function for inputs of different lengths
 
 ## Our first algorithm
 
@@ -19,7 +19,7 @@ First, note that we can simply answer these questions with the existing Javascri
 
 But how does Javascript implement something like this?  For right now, let's assume that Javascript implements it the same way we would, by examining each letter.  
 
-Great, so now let's consider the cost of algorithm that examines each letter.
+Great, so now let's consider the cost of an algorithm that examines each letter.
 
 ### The cost of examining each letter
 
@@ -100,7 +100,7 @@ In the first line, we declare the variable `let matches;` Then, for each letter 
 
 Notice that how long it takes to guarantee that a letter is not in a word depends on the size of our word.  So let's express the time it takes to run this function in terms of the size of our string.  
 
-If let the number of letters in our word be `n` then we can say our function runs in `n + 3` time.  So if we choose a string of 100 letters, this takes 100 + 3 = 103 time.  We call this the time complexity of the function.
+If we let the number of letters in our word be `n` then we can say our function runs in `n + 3` time.  So if we choose a string of 100 letters, this takes 100 + 3 = 103 time.  We call this the time complexity of the function.
 
 ![time-complexity](https://s3-us-west-2.amazonaws.com/curriculum-content/web-development/algorithms/time-complexity.png)
 
