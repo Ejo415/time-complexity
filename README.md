@@ -61,7 +61,7 @@ In the code above, we visit each letter in the string, and then we ask the quest
 // false
 `
 
-> Thus, we coerce an expression to it's boolean value.
+> Thus, we coerce an expression to its boolean value.
 
 Now how long does that entire procedure take?
 
@@ -97,7 +97,7 @@ function stringIncludes(word, letter){
 stringIncludes("banana", "d")
 ```
 
-In the first line, we declare the variable `let matches;` Then, for each letter we ask if it equals "d".  So we run the if expression six times (one for each letter).  Finally, we coerce the variable matches to it's boolean value, and return that value.  So we would probably say there are nine steps involved.
+In the first line, we declare the variable `let matches;` Then, for each letter we ask if it equals "d".  So we run the if expression six times (one for each letter).  Finally, we coerce the variable matches to its boolean value, and return that value.  So we would probably say there are nine steps involved.
 
 Notice that how long it takes to guarantee that a letter is not in a word depends on the size of our word.  So let's express the time it takes to run this function in terms of the size of our string.  
 
