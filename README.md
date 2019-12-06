@@ -21,9 +21,10 @@ But how does Javascript implement something like this?  For right now, let's ass
 
 Great, so now let's consider the cost of an algorithm that examines each letter.
 
+
 ### The cost of examining each letter
 
-When we ask about 'cost' in the context of algorithms, what we mean for now is time.  
+When we ask about 'cost' in the context of algorithms, what we mean, for now, is time.  
 
 Here, we want to calculate the time it takes to consider each letter and test for equality.  First let's write out the code, and then we'll calculate the cost.  Our code may look like the following:
 
