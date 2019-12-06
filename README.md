@@ -19,7 +19,8 @@ First, note that we can simply answer these questions with the existing Javascri
 
 But how does Javascript implement something like this?  For right now, let's assume that Javascript implements it the same way we would, by examining each letter.  
 
-Great, so now let's consider the cost of the algorithm that examines each letter.
+Great, so now let's consider the cost of an algorithm that examines each letter.
+
 
 ### The cost of examining each letter
 
