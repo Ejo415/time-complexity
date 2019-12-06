@@ -119,3 +119,5 @@ we no longer have to visit each letter, and now our function should take less ti
 ### Summary
 
 In this section, we worked towards a mechanism for describing how costly a function is.  We calculate the cost by counting the number of lines that are run in a function.  We recognize that the cost of performing a function varies with the size of the input, so we describe the cost in terms of the size of the input.  We call this cost the "time complexity" of the function.
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/time-complexity'>Time Complexity</a> on Learn.co and start learning to code for free.</p>
